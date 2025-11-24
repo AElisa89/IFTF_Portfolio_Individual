@@ -1,6 +1,4 @@
-/* ==========================
-   VARIABLES Y RESET
-========================== */
+/* -- variables globqles -- */
 :root {
   --bg: #0d0f16;
   --bg-soft: #1a1c23;
@@ -26,9 +24,7 @@ body {
   line-height: 1.6;
 }
 
-/* ==========================
-   HEADER
-========================== */
+/* -- header -- */
 
 .header {
   position: sticky;
@@ -74,18 +70,14 @@ body {
   color: var(--accent);
 }
 
-/* ==========================
-   MAIN LAYOUT
-========================== */
+/* -- main -- */
 main {
   max-width: 1080px;
   margin: 0 auto;
   padding: 2.5rem 1rem 4rem;
 }
 
-/* ==========================
-   HERO
-========================== */
+/* -- hero -- */
 
 .hero {
   display: grid;
@@ -167,9 +159,7 @@ main {
   box-shadow: 0 10px 35px rgba(0,0,0,0.6);
 }
 
-/* ==========================
-   SECCIONES GENERALES
-========================== */
+/* -- general -- */
 
 .section {
   background: var(--card-bg);
@@ -187,16 +177,14 @@ main {
 
 .section p { color: var(--muted); }
 
-/* GRID COLUMNAS */
+/* columnas */
 .section-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
 }
 
-/* ==========================
-   SKILLS (PILLS)
-========================== */
+/* -- skills  */
 
 .pill-list {
   list-style: none;
@@ -215,9 +203,7 @@ main {
   color: var(--text);
 }
 
-/* ==========================
-   CARDS DE EXPERIENCIA
-========================== */
+/* -- cards experiencia --*/
 
 .card {
   background: var(--bg-soft);
@@ -259,9 +245,7 @@ main {
   color: var(--muted);
 }
 
-/* ==========================
-   TIMELINE
-========================== */
+/*  -- seccio´n timeline --  */
 
 .timeline {
   border-left: 2px solid var(--border);
@@ -278,9 +262,7 @@ main {
   color: var(--muted);
 }
 
-/* ==========================
-   CONTACTO
-========================== */
+/* -- sección contacto --  */
 
 .contact-list {
   list-style: none;
@@ -309,9 +291,7 @@ main {
   width: 100%;
 }
 
-/* ==========================
-   FOOTER
-========================== */
+/* --- footer -- */
 
 .footer {
   margin-top: 3rem;
@@ -323,9 +303,7 @@ main {
 
 .footer span { color: var(--accent); }
 
-/* ==========================
-   RESPONSIVE
-========================== */
+/*--responsive-*/
 
 @media (max-width: 768px) {
 
